@@ -1,0 +1,67 @@
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	/*background: #AC271E;*/
+	background: #861b16;
+	padding: 80px 0;
+}
+
+
+.box{
+	position: relative; /*relative = deixa a caixa em primeiro plano - parecido com minipage no latex*/
+	width: 940px; /*Tamanho padrão para telas*/
+	margin: 0 auto;
+}
+
+.Ptitle {
+	font-size: 40px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 0 0 10px  0; /* top right bottom left */
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: auto;
+}
+
+.principal strong{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.aga3 {
+	padding: 3em 0;
+	text-align: center;
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+/*Como mudar a posição dos elementos da lista???*/
+nav li {
+	display: inline;
+	display: center;
+	margin: 0 0 0 15px; /* top right bottom left */
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none; /*sem decoração - era o que deixava o texto sublinhado*/
+}
+
+nav a:hover {
+	color: 	#C78990;
+	text-decoration: underline;
+}
