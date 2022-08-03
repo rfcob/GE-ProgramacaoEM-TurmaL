@@ -1,14 +1,14 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
+	color: #00C9BC;
 }
 
-header {
-	/*background: #AC271E;*/
-	background: #861b16;
-	padding: 80px 0;
+.logo {
+	max-width: 20%;  
+	height: 20%;  
+	display: center;
 }
-
 
 .box{
 	position: relative; /*relative = deixa a caixa em primeiro plano - parecido com minipage no latex*/
@@ -16,16 +16,28 @@ header {
 	margin: 0 auto;
 }
 
+header {
+	/*background: #AC271E;*/
+	background: #000000;
+	padding: 20px 0;
+}
+
+main {
+	padding: 3em 0;
+	background: linear-gradient(#000000,#888888);
+}
+
+
 .Ptitle {
 	font-size: 40px;
-	color: #FFFFFF;
+	color: #00C9BC;
 	font-weight: bold;
-	margin: 0 0 10px  0; /* top right bottom left */
+	/*margin: 0 0 0  0; /* top right bottom left */
 }
 
 .principal {
 	padding: 3em 0;
-	background: #FEFEFE;
+	/*background: #FEFEFE;*/
 	width: 940px;
 	margin: auto;
 }
@@ -42,7 +54,7 @@ header {
 
 nav{
 	position: absolute;
-	top: 110px;
+	top: 280px;
 	right: 0;
 }
 
@@ -55,8 +67,8 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #FFFFFF;
-	font-weight: bold;
+	color: #00C9BC;
+		font-weight: bold;
 	font-size: 22px;
 	text-decoration: none; /*sem decoração - era o que deixava o texto sublinhado*/
 }
@@ -65,3 +77,4 @@ nav a:hover {
 	color: 	#C78990;
 	text-decoration: underline;
 }
+
