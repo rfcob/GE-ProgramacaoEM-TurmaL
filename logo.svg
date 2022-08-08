@@ -19,20 +19,22 @@ viewBox="0 0 21000 29700"
   <style type="text/css">
    <![CDATA[
     @font-face { font-family:"Arial";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
-    .fil0 {fill:#00C9BC}
-    .fil1 {fill:white}
+    .str0 {stroke:#00C9BC;stroke-width:200}
+    .fil0 {fill:none}
+    .fil1 {fill:black}
+    .fil2 {fill:#00C9BC}
     .fnt0 {font-weight:normal;font-size:4580.67px;font-family:'Arial'}
    ]]>
   </style>
  </defs>
  <g id="Camada_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <ellipse id="path61-5" class="fil0" cx="5046" cy="13657" rx="3541" ry="3562"/>
-  <ellipse id="path61-6-7" class="fil1" cx="4823" cy="13793" rx="3148" ry="3340"/>
-  <ellipse id="path61-5-3" class="fil0" cx="16417" cy="13524" rx="3541" ry="3562"/>
-  <ellipse id="path61-6-7-5" class="fil1" cx="16630" cy="13405" rx="3148" ry="3340"/>
+  <ellipse id="path61-5" class="fil0 str0" cx="5046" cy="13657" rx="3541" ry="3562"/>
+  <ellipse id="path61-5-3" class="fil0 str0" cx="16417" cy="13524" rx="3541" ry="3562"/>
+  <ellipse id="path61-6-7-5" class="fil1" cx="16630" cy="13485" rx="3148" ry="3340"/>
   <g transform="matrix(0.846999 0 0 1 -313.165 -150.01)">
-   <text x="10500" y="14850" id="text796" class="fil0 fnt0">ne</text>
+   <text x="10500" y="14850" id="text796" class="fil2 fnt0">ne</text>
   </g>
+  <ellipse id="path61-6-7" class="fil1" cx="4817" cy="13708" rx="3148" ry="3340"/>
  </g>
 </svg>
