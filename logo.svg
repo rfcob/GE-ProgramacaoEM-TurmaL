@@ -5,7 +5,7 @@
 viewBox="0 0 21000 29700"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
-  <font id="FontID0" horiz-adv-x="667" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+  <font id="FontID0" horiz-adv-x="667" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
 	<font-face 
 		font-family="Arial">
 		<font-face-src>
@@ -18,23 +18,45 @@ viewBox="0 0 21000 29700"
   </font>
   <style type="text/css">
    <![CDATA[
-    @font-face { font-family:"Arial";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    @font-face { font-family:"Arial";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
     .str0 {stroke:#00C9BC;stroke-width:200}
-    .fil0 {fill:none}
-    .fil1 {fill:black}
-    .fil2 {fill:#00C9BC}
+    .fil3 {fill:#00C9BC}
+    .fil0 {fill:url(#id0)}
+    .fil1 {fill:url(#id1)}
+    .fil2 {fill:url(#id2)}
+    .fil4 {fill:url(#id3)}
     .fnt0 {font-weight:normal;font-size:4580.67px;font-family:'Arial'}
    ]]>
   </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1504.96" y1="13656.7" x2="8586.16" y2="13656.7">
+   <stop offset="0" style="stop-opacity:1; stop-color:#00C9BC"/>
+   <stop offset="0.878431" style="stop-opacity:1; stop-color:#7FE4DD"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:white"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="12876.2" y1="13523.7" x2="19957.5" y2="13523.7">
+   <stop offset="0" style="stop-opacity:1; stop-color:#00C9BC"/>
+   <stop offset="0.819608" style="stop-opacity:1; stop-color:#7FE4DD"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:white"/>
+  </linearGradient>
+  <radialGradient id="id2" gradientUnits="objectBoundingBox" cx="31%" cy="75%" r="36.0001%" fx="31%" fy="75%">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="0.470588" style="stop-opacity:1; stop-color:#7F7F7F"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:black"/>
+  </radialGradient>
+  <radialGradient id="id3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.968316 -1.54083 1.45247 1.02722 -20968 4789)" cx="3364.72" cy="14509.8" r="1803.59" fx="3364.72" fy="14509.8">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="0.45098" style="stop-opacity:1; stop-color:#7F7F7F"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:black"/>
+  </radialGradient>
  </defs>
  <g id="Camada_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
   <ellipse id="path61-5" class="fil0 str0" cx="5046" cy="13657" rx="3541" ry="3562"/>
-  <ellipse id="path61-5-3" class="fil0 str0" cx="16417" cy="13524" rx="3541" ry="3562"/>
-  <ellipse id="path61-6-7-5" class="fil1" cx="16630" cy="13485" rx="3148" ry="3340"/>
+  <ellipse id="path61-5-3" class="fil1 str0" cx="16417" cy="13524" rx="3541" ry="3562"/>
+  <ellipse id="path61-6-7-5" class="fil2" cx="16570" cy="13495" rx="3148" ry="3340"/>
   <g transform="matrix(0.846999 0 0 1 -313.165 -150.01)">
-   <text x="10500" y="14850" id="text796" class="fil2 fnt0">ne</text>
+   <text x="10500" y="14850" id="text796" class="fil3 fnt0">ne</text>
   </g>
-  <ellipse id="path61-6-7" class="fil1" cx="4817" cy="13708" rx="3148" ry="3340"/>
+  <ellipse id="path61-6-7" class="fil4" cx="4876" cy="13708" rx="3148" ry="3340"/>
  </g>
 </svg>
