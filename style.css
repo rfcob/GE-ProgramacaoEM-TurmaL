@@ -1,61 +1,15 @@
-
-body {
-	font-family: 'Montserrat', sans-serif;
-	color: #00C9BC;
-}
-
-.logo {
-	max-width: 20%;  
-	height: 20%;  
-	display: center;
-}
-
 .box{
-	position: relative; /*relative = deixa a caixa em primeiro plano - parecido com minipage no latex*/
-	width: 940px; /*Tamanho padrão para telas*/
+	position: relative;
+	width: auto; /*Tamanho padrão para telas*/
 	margin: 0 auto;
-}
-
-header {
-	/*background: #AC271E;*/
-	background: #000000;
-	padding: 20px 0;
-}
-
-main {
-	padding: 3em 0;
-	background: linear-gradient(#000000,#888888);
-}
-
-
-.Ptitle {
-	font-size: 40px;
-	color: #00C9BC;
-	font-weight: bold;
-	/*margin: 0 0 0  0; /* top right bottom left */
-}
-
-.principal {
-	padding: 3em 0;
-	/*background: #FEFEFE;*/
-	width: 940px;
-	margin: auto;
-}
-
-.principal strong{
-	font-weight: bold;
-	font-size: 20px;
-}
-
-.aga3 {
-	padding: 3em 0;
-	text-align: center;
+	padding: 0px 0px 0px 0 px;
+	background: linear-gradient(#000000,#666666);
 }
 
 nav{
 	position: absolute;
-	top: 280px;
-	right: 0;
+	top: 10px;
+	right: 40px;
 }
 
 /*Como mudar a posição dos elementos da lista???*/
@@ -78,3 +32,122 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+
+
+.Ptitle {
+	font-size: 40px;
+	color: #00C9BC;
+	font-weight: bold;
+	margin: 0px 0px 0  40px; /* top right bottom left*/
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #00C9BC;
+	padding: 0;
+  	margin: 0;
+}
+
+
+header {
+	/*background: #AC271E;*/
+	background: #000000;
+	padding: 10px 0;
+}
+
+
+.logo {
+    margin: 10px auto 20px;
+    display: block;
+    max-width: 20%;  
+	height: 20%; 
+}
+
+main {
+	padding: 0px 0 0px 0;
+	/*background: linear-gradient(#000000,#888888);*/
+}
+
+.game {
+	padding: 0px 0 0 0;
+	background: #BBBBBB;
+}
+
+.titlegames {
+	text-align: center;
+	font-size: 40px;
+	color: #990000;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px 0px 0  0px; /* top right bottom left*/
+}
+
+.textsgames {
+	text-align: center;
+	font-size: 22px;
+	color: #00C9BC;
+	font-weight: bold;
+	padding: 0px;
+	margin: 20px 0px 20px  0px; /* top right bottom left*/
+}
+
+.game{
+	background: linear-gradient(#888888,#000000);
+}
+
+.game1 {
+	margin: 0px 0 0px;
+    display: block;
+    max-width: 100%;  
+	height: 100%; 
+}
+
+.likeheader {
+	background: linear-gradient(#888888,#888888);
+	padding: 10px 0;
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	padding: 0 0 80px 0;
+}
+
+.texts{
+	padding: 0px 0;
+	background: linear-gradient(#000000,#888888);
+}
+
+.principal {
+	font-size: 18px;
+	padding: 20px 0;
+	/*background: #FEFEFE;*/
+	width: 940px;
+	margin: auto;
+	text-align: center;
+	
+}
+
+.principal strong{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.aga3 {
+	padding: 10px 0 140px 0px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.likeheader2 {
+	background: #000000;
+	padding: 10px 0;
+
+}
+
+footer {
+	padding: 10px 0;
+	background: #000000;
+}
