@@ -32,8 +32,6 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-
-
 .Ptitle {
 	font-size: 40px;
 	color: #00C9BC;
@@ -48,19 +46,20 @@ body {
   	margin: 0;
 }
 
-
 header {
 	/*background: #AC271E;*/
 	background: #000000;
 	padding: 10px 0;
 }
 
-
 .logo {
     margin: 10px auto 20px;
     display: block;
     max-width: 20%;  
 	height: 20%; 
+	border-radius: 10%;
+	border: 3px solid #00C9BC;
+	padding: 30px;
 }
 
 main {
@@ -96,16 +95,13 @@ main {
 }
 
 .game1 {
-	margin: 0px 0 0px;
-    display: block;
-    max-width: 100%;  
+    width: 100%;  
 	height: 100%; 
 }
 
 .likeheader {
 	background: linear-gradient(#888888,#888888);
 	padding: 10px 0;
-
 }
 
 h2 {
@@ -126,7 +122,6 @@ h2 {
 	width: 940px;
 	margin: auto;
 	text-align: center;
-	
 }
 
 .principal strong{
@@ -144,7 +139,6 @@ h2 {
 .likeheader2 {
 	background: #000000;
 	padding: 10px 0;
-
 }
 
 footer {
