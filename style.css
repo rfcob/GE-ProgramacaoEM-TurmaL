@@ -4,8 +4,10 @@
 	margin: 0 auto;
 	padding: 0px 0px 0px 0 px;
 	background-color: #9014F5
-	/*background: linear-gradient(#000000,#9014F5);*/
 }
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*Elementos da lista de navegação*/
 
 nav{
 	position: absolute;
@@ -13,6 +15,8 @@ nav{
 	right: 40px;
 }
 
+
+/*-----------------------------------------------------------------------------------------------------*/
 /*Como mudar a posição dos elementos da lista???*/
 nav li {
 	display: inline;
@@ -40,17 +44,26 @@ nav a:hover {
 	margin: 0px 0px 0  40px; /* top right bottom left*/
 }
 
+/*-----------------------------------------------------------------------------------------------------*/
+/*Corpo da página*/
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	padding: 0;
   	margin: 0;
 }
 
+/*-----------------------------------------------------------------------------------------------------*/
+/*cabeçalho*/
+
 header {
 	/*background: #AC271E;*/
 	background: linear-gradient(#9014F5,#FFFFFF);
 	padding: 10px 0;
 }
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*logos*/
 
 .logo {
     margin: 10px auto 20px;
@@ -65,99 +78,12 @@ header {
 	transform: scale(1.30);
 }
 
+/*-----------------------------------------------------------------------------------------------------*/
+/*parte principal da página*/
+
+
 main {
 	padding: 0px 0 0px 0;
-	/*background: linear-gradient(#000000,#888888);*/
-}
-
-/* Seção dedicada ao jogo 1 e/ou jogos*/
-
-.game {
-	padding: 3em;
-}	
-
-#game1title {
-	color:darkred;
-	font-size: 28px;
-	line-height: 2.5;
-	font-weight: bolder;
-}
-.gameconteudo {
-	width: 940px;
-	margin: 0 auto;
-}
-
-.gameconteudo2 {
-	width: 940px;
-	margin: 0 auto;
-}
-
-.gameconteudotexto {
-	width: 45%;
-	display: inline-block;
-	vertical-align: top;
-	text-align: left;
-	font-size: 14pt;
-}
-.gameconteudotexto {
-	line-height: 1.5;
-}
-
-.gameconteudotexto:before {
-	content: "";
-}
-
-.titlegames:first-child {
-	font-weight: bolder;
-}
-
-.game1 {
-	width: 200%;
-}
-
-.game2 {
-	margin-top: 50px;
-	width: 140%;
-}
-
-.game1:hover {
-	opacity: 0.6;
-}
-
-
-#game1title2 {
-	margin-top: 50px;
-	color:darkred;
-	font-size: 28px;
-	line-height: 2.5;
-	font-weight: bolder;
-
-}
-.gameconteudotexto2 {
-	margin-top: 50px;
-	width: 45%;
-	display: inline-block;
-	vertical-align: top;
-	text-align: right;
-	font-size: 14pt;
-}
-
-/*Estilo para A seção Jogos*/
-
-.likeheader {
-	padding: 50px 50px;
-}
-#likeheader {
-	padding: 50px 0px;
-	font-size: 60px;
-	font-weight: bolder;
-	font-style: italic;
-}
-
-h2 {
-	text-align: center;
-	font-size: 40px;
-	padding: 0 0 80px 0;
 }
 
 .texts{
@@ -197,7 +123,98 @@ h2 {
 	color:#000000
 }
 
+h2 {
+	text-align: center;
+	font-size: 40px;
+	padding: 0 0 80px 0;
+}
 
+/*-----------------------------------------------------------------------------------------------------*/
+/* Seção dedicada ao jogo 1 e/ou jogos*/
+
+.games {
+	padding: 3em;
+}	
+
+#game1title {
+	color:darkred;
+	font-size: 28px;
+	line-height: 2.5;
+	font-weight: bolder;
+}
+.gameconteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.gameconteudotexto {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	font-size: 14pt;
+}
+.gameconteudotexto {
+	line-height: 1.5;
+}
+
+.gameconteudotexto:before {
+	content: "";
+}
+
+.titlegames:first-child {
+	font-weight: bolder;
+}
+
+.game1 {
+	width: 165%;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/* Seção dedicada ao jogo 1 e/ou jogos*/
+
+.game2 {
+	margin-top: 50px;
+	width: 140%;
+	display: inline;
+}
+
+.gameconteudo2 {
+	width: 940px;
+	margin: 0 auto;
+}
+
+#game1title2 {
+	margin-top: 50px;
+	color:darkred;
+	font-size: 28px;
+	line-height: 2.5;
+	font-weight: bolder;
+
+}
+.gameconteudotexto2 {
+	margin-top: 50px;
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	font-size: 14pt;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*Estilo para A seção Jogos*/
+
+.likeheader {
+	padding: 50px 50px;
+}
+#likeheader {
+	padding: 50px 0px;
+	font-size: 60px;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
 /*Seção dedicada ao rodapé*/
 
 
@@ -213,3 +230,22 @@ footer {
 	height: 7%; 
 	/*border: 3px solid #00C9BC;*/
 }
+
+/*
+.lis {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%%
+}
+
+.lista {
+	color:red;
+	
+}
+
+#gameteste {
+	display: inline-block;
+	width: 20%;
+	height: inherit;
+	vertical-align: top;
+}*/
