@@ -3,7 +3,8 @@
 	width: auto; /*Tamanho padrão para telas*/
 	margin: 0 auto;
 	padding: 0px 0px 0px 0 px;
-	background: linear-gradient(#000000,#666666);
+	background-color: #9014F5
+	/*background: linear-gradient(#000000,#9014F5);*/
 }
 
 nav{
@@ -21,34 +22,33 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #00C9BC;
-		font-weight: bold;
+	color: #EBFEC7;
+	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none; /*sem decoração - era o que deixava o texto sublinhado*/
 }
 
 nav a:hover {
-	color: 	#C78990;
+	color: 	#ff00007c;
 	text-decoration: underline;
 }
 
 .Ptitle {
 	font-size: 40px;
-	color: #00C9BC;
+	color: #EBFEC7;
 	font-weight: bold;
 	margin: 0px 0px 0  40px; /* top right bottom left*/
 }
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	color: #00C9BC;
 	padding: 0;
   	margin: 0;
 }
 
 header {
 	/*background: #AC271E;*/
-	background: #000000;
+	background: linear-gradient(#9014F5,#FFFFFF);
 	padding: 10px 0;
 }
 
@@ -58,7 +58,7 @@ header {
     max-width: 20%;  
 	height: 20%; 
 	border-radius: 10%;
-	border: 3px solid #00C9BC;
+	/*border: 3px solid #00C9BC;*/
 	padding: 30px;
 }
 
@@ -67,41 +67,60 @@ main {
 	/*background: linear-gradient(#000000,#888888);*/
 }
 
+/* Seção dedicada ao jogo 1 e/ou jogos*/
+
 .game {
-	padding: 0px 0 0 0;
-	background: #BBBBBB;
+	padding: 3em;
+}	
+
+#game1title {
+	color:darkred;
+	font-size: 28px;
+	line-height: 2.5;
+	font-weight: bolder;
+}
+.gameconteudo {
+	width: 940px;
+	margin: 0 auto;
 }
 
-.titlegames {
-	text-align: center;
-	font-size: 40px;
-	color: #990000;
-	font-weight: bold;
-	padding: 0px;
-	margin: 0px 0px 0  0px; /* top right bottom left*/
+.gameconteudotexto {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+	font-size: 14pt;
+}
+.gameconteudotexto {
+	line-height: 1.5;
 }
 
-.textsgames {
-	text-align: center;
-	font-size: 22px;
-	color: #00C9BC;
-	font-weight: bold;
-	padding: 0px;
-	margin: 20px 0px 20px  0px; /* top right bottom left*/
+.gameconteudotexto:before {
+	content: "";
 }
 
-.game{
-	background: linear-gradient(#888888,#000000);
+.titlegames:first-child {
+	font-weight: bolder;
 }
 
 .game1 {
-    width: 100%;  
-	height: 100%; 
+	width: 200%;
 }
 
+.game1:hover {
+	opacity: 0.6;
+}
+
+/*Estilo para A seção Jogos*/
+
 .likeheader {
-	background: linear-gradient(#888888,#888888);
-	padding: 10px 0;
+	padding: 50px 50px;
+}
+#likeheader {
+	padding: 50px 0px;
+	font-size: 60px;
+	font-weight: bolder;
+	font-style: italic;
 }
 
 h2 {
@@ -112,36 +131,54 @@ h2 {
 
 .texts{
 	padding: 0px 0;
-	background: linear-gradient(#000000,#888888);
 }
 
-.principal {
-	font-size: 18px;
+.history {
+	font-size: 26px;
+	color:#FFFFFF;
+	font-weight: bolder;
 	padding: 20px 0;
-	/*background: #FEFEFE;*/
 	width: 940px;
 	margin: auto;
-	text-align: center;
+	text-align: justify;
+	line-height: 1.5;
 }
 
-.principal strong{
+.history strong{
 	font-weight: bold;
 	font-size: 20px;
 }
 
-.aga3 {
-	padding: 10px 0 140px 0px;
+.slogan {
+	padding: 10px 0 180px 0px;
 	text-align: center;
-	font-size: 25px;
+	font-size: 35px;
 	font-weight: bold;
 }
 
-.likeheader2 {
-	background: #000000;
-	padding: 10px 0;
+.mission {
+	background: linear-gradient(#FFFFFF,#D71DDE,#FFFFFF); 	
+	padding: 100px 0 100px 0;
 }
 
+#mission {
+	font-size: 26px;	
+	color:#000000
+}
+
+
+/*Seção dedicada ao rodapé*/
+
+
 footer {
-	padding: 10px 0;
-	background: #000000;
+	padding: 0px 0 0px 0 ;
+	background: #9014F5;
+}
+
+#logofoot {
+    margin: 0px auto 0px;
+    display: block;
+    width: 7%;  
+	height: 7%; 
+	/*border: 3px solid #00C9BC;*/
 }
